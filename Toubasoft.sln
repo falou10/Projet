@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daarasystem", "Daarasystem\Daarasystem.csproj", "{3DD63CB2-5021-4B71-A4B1-9B3C564EA5FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E0B6CECB-1B6B-41B9-BA0E-3FCDFA716B70} = {E0B6CECB-1B6B-41B9-BA0E-3FCDFA716B70}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toubasoft.WebService", "Toubasoft.WebService\Toubasoft.WebService.csproj", "{E0B6CECB-1B6B-41B9-BA0E-3FCDFA716B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD63CB2-5021-4B71-A4B1-9B3C564EA5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD63CB2-5021-4B71-A4B1-9B3C564EA5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD63CB2-5021-4B71-A4B1-9B3C564EA5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD63CB2-5021-4B71-A4B1-9B3C564EA5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B6CECB-1B6B-41B9-BA0E-3FCDFA716B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B6CECB-1B6B-41B9-BA0E-3FCDFA716B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B6CECB-1B6B-41B9-BA0E-3FCDFA716B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B6CECB-1B6B-41B9-BA0E-3FCDFA716B70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
